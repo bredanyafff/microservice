@@ -10,7 +10,7 @@
 1. Убедитесь, что у вас установлен Python версии 3.6 или выше.
 2. Установите RabbitMQ на вашем компьютере. Вы можете скачать его с [официального сайта RabbitMQ](https://www.rabbitmq.com/download.html).
 3. Запустите cmd и перейдите по пути (../../Program Files/Rabbit MQServer/rabbitmq_server-<версия сервера>/sbin
-4. Выполните следующие команды для запуска сервера:
+4. Выполните следующие команды для запуска сервера:  
 rabbitmq-plugins enable rabbitmq_management  
 rabbitmq-service stop  
 rabbitmq-service start  
@@ -18,6 +18,7 @@ rabbitmq-service start
 появится доступ к веб-интерфейсу. (по умолчанию username = guest, password = guest)
 
 ![img.png](Login.png)
+
 6. Клонируйте репозиторий на ваш локальный компьютер.
 7. Перейдите в директорию проекта.
 8. Установите необходимые зависимости с помощью pip:
