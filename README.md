@@ -11,16 +11,16 @@
 2. Установите RabbitMQ на вашем компьютере. Вы можете скачать его с [официального сайта RabbitMQ](https://www.rabbitmq.com/download.html).
 3. Запустите cmd и перейдите по пути (../../Program Files/Rabbit MQServer/rabbitmq_server-<версия сервера>/sbin
 4. Выполните следующие команды для запуска сервера:
-rabbitmq-plugins enable rabbitmq_management
-rabbitmq-service stop
-rabbitmq-service start
+rabbitmq-plugins enable rabbitmq_management  
+rabbitmq-service stop  
+rabbitmq-service start  
 5. Проверьте запустился ли сервер перейдя по адресу http://localhost:15672 в браузере. Если сервер запустился, то 
 появится доступ к веб-интерфейсу. (по умолчанию username = guest, password = guest)
 
 ![img.png](Login.png)
-5. Клонируйте репозиторий на ваш локальный компьютер.
-6. Перейдите в директорию проекта.
-7. Установите необходимые зависимости с помощью pip:
+6. Клонируйте репозиторий на ваш локальный компьютер.
+7. Перейдите в директорию проекта.
+8. Установите необходимые зависимости с помощью pip:
 ```bash
 pip install pika
 ```
