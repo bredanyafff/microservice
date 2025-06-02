@@ -1,6 +1,6 @@
 # RabbitMQ Message Sender and Receiver
 
-![Project Image](Logo.png)
+![Project Image](Photo/Logo.png)
 
 ## Описание
 
@@ -17,7 +17,7 @@ rabbitmq-service start
 5. Проверьте запустился ли сервер перейдя по адресу http://localhost:15672 в браузере. Если сервер запустился, то 
 появится доступ к веб-интерфейсу. (по умолчанию username = guest, password = guest)
 
-![img.png](Login.png)
+![img.png](Photo/Login.png)
 
 6. Клонируйте репозиторий на ваш локальный компьютер.
 7. Перейдите в директорию проекта.
@@ -34,13 +34,13 @@ python producer.py
 ```
 3. Зайдя в веб-интерфейс RabbitMQ увидим что сообщение поставлено в очередь.
 
-![img_1.png](Queue.png)
+![img_1.png](Photo/Queue.png)
 4. Запустите через другой терминал файл consumer.py
 ```bash
 python consumer.py
 ```
 5. Увидим что появилось новое подключение на вкладке "Connections" 
-![Connections.png](Connections.png)
+![Connections.png](Photo/Connections.png)
 6. Сообщение обработалось, вывелось в терминале и ушло из очереди.
-![img_4.png](Terminal.png)
-![NoQueue.png](NoQueue.png)
+![img_4.png](Photo/Terminal.png)
+![NoQueue.png](Photo/NoQueue.png)
